@@ -1,0 +1,450 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* common styles */
+* {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+.container{
+	max-width: 990px;
+	margin: 0 auto;
+	padding: 0 15px;
+	
+}
+/* ---------- header starts ----------- */
+.header{
+	background-color: #FFFFFF;
+	padding: 18px 0;
+
+}
+.logo a {
+	font-size: 25px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	color:  #69B9FF;
+}
+.menu a{
+	line-height: 20px;
+	font-size: 16px;
+	color: #676770;
+	text-transform: capitalize;
+	transition: all 0.5s ;
+	margin-left:40px ;
+
+}
+.menu a:hover {
+	color:  #0082F3;
+}
+
+.container-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu ul {
+	display: flex;
+}
+/* ------- header ends ---------- */
+
+/* ---------- banner starts ----------- */
+.banner{
+	background-image: url(img/bg.jpg);
+	background-repeat: no-repeat;
+
+	background-size: cover;
+	padding-top: 184px;
+	padding-bottom: 199px;
+	text-align: center;
+}
+.banner-text h1 {
+	font-size: 59px;
+	line-height: 60px;
+	text-align: center;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-bottom: 107px;
+}
+.blue-btn{
+	font-size: 16px;
+    line-height: 21px;
+	text-align: center;
+	letter-spacing: 2px;
+    text-transform: uppercase;
+	color: #FFFFFF;
+	background: #69B9FF;
+    border-radius: 4px;
+	padding: 11px 30px 13px 30px;
+	display: inline-block;
+	margin-right: 20px;
+
+}
+.white-btn{
+	font-size: 16px;
+    line-height: 21px;
+	text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+    border-radius: 4px;
+	padding: 10px 31px 12px 31px;
+	display: inline-block;
+}
+
+
+
+/* ------- banner ends ---------- */
+
+/*  -------- what we do section start --------*/
+h2{
+	font-size: 30px;
+    line-height: 36px;
+	text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+	color: #676770;
+	margin: 17px;
+}
+.projects{
+	background-color: #FFFFFF;
+	padding-top: 77px;
+	padding-bottom: 80px;
+}
+.text{
+	font-size: 17px;
+    line-height: 20px;
+	text-align: center;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #8E8E9C;
+	margin-bottom: 62px;
+}
+.card-image{
+	height: 94px;
+	width: 94px;
+	margin-bottom: 19px;
+	 
+}
+.card-title{
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+	color: #676770;
+	margin-bottom: 14px;
+	
+}
+.card-text{
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+	color: #6A859C;
+}
+.card{
+	background: #FFFFFF;
+	border: 1px solid #DCEBF7;
+	border-radius: 5px;
+	padding: 36px 16px 23px ;
+	text-align: center;
+
+}
+.cards-section{
+	display: flex;
+	gap: 20px;
+}
+
+
+
+/*  -------- what we do section end --------*/
+
+/* ------------------servies start----------------- */
+.services{
+	background-color:  #192024;
+	padding: 80px 0 ;
+
+}
+.services .title {
+	color: #FFFFFF;
+}
+.servises .text{
+	color: #E8E8E8;;
+}
+.section-title{
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-bottom: 23px;
+}
+.section-text{
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 17px;
+}
+.services-box img{
+	margin-bottom:20px ;
+}
+.services-section{
+	display: flex;
+	gap: 20px;
+}
+.services-box{
+	text-align: center;
+}
+
+/* ------------------servies end----------------- */
+
+/* ---------tabs starts ---------*/
+.tabs{
+	background-color: #FFFFFF;
+	padding: 77px 0px;
+}
+.tab-button{
+	font-size: 16px;
+	line-height: 21px;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background: #92A0AD;
+	border-radius: 4px;
+	padding: 1px 30px;
+	margin-left:16px ;
+	white-space: nowrap;
+}
+.image-title{
+	font-size: 31px;
+	line-height: 36px;
+	text-align: center;
+	color: #676770;
+	margin-bottom: 14px;
+}
+.image-text{
+	font-size: 13px;
+	line-height: 25px;
+	text-align: center;
+	color: #6A859C;
+}
+.img{
+	margin-bottom: 16px;
+}
+.tab-content{
+	display: none;
+}
+#tab1:checked ~ .tab-content1 {
+	display: block;
+}
+#tab2:checked ~ .tab-content2 {
+	display: block;
+}
+#tab3:checked ~ .tab-content3{
+	display: block;
+}
+#tab1{
+	display: none;
+
+}
+#tab2{
+	display: none;
+
+}
+#tab3{
+	display: none;
+
+}
+.tab-content{
+	margin-top: 53px;
+}
+.tabs{
+text-align: center;
+}
+
+.two {
+	margin-left: 0;
+}
+
+
+/* ---------tabs end ---------*/
+
+/*------=-=-=-=-=-=-=- footer start -=-==-=-=-=-------*/
+.foot-title{
+	font-size: 18px;
+	line-height: 20px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	color: #676770;
+	margin-bottom: 25px;
+}
+
+.foot p {
+	font-size: 14px;
+	line-height: 25px;
+	color: #6A859C;
+}
+.foot a{
+	font-size: 13px;
+	line-height: 20px;
+	color: #668CAD;
+}
+.foot li{
+	border-bottom: 1px solid #D5D5E0;
+	padding-bottom: 12px;
+}
+
+
+.footer-boxes {
+	display: flex;
+	padding-bottom: 40px;
+}
+.foot{
+	flex-basis: 320px;
+	padding-right: 20px;
+}
+.foot-bottom{
+	background-color: #383838;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.copyright{
+	font-size: 15px;
+	line-height: 20px;
+	text-align: center;
+	color: #9E9E9E;
+}
+.footer{
+	padding-top: 33px;
+}
+
+/*0--0-=-0-=-0-=-0-0-=-0-= footer ends 0-0-0-00--=--=-*/
+
+/* media queries */
+@media(max-width:991px){ 
+	.hide {
+		display: none;
+	}
+}
+
+@media(max-width:850px) {
+	.cards-section {
+		display: block;
+	}
+
+	.card {
+		margin-bottom: 20px;
+	}
+}
+
+@media(max-width: 768px) {
+	.banner-text h1 {
+		font-size: 50px;
+	}
+
+	.services-section {
+		display: block;
+		
+	}
+	.services-box {
+		margin-bottom: 20px;
+
+	}
+	.foot {
+		flex-basis:50%;
+		margin-bottom: 20px;
+	}
+	.one{
+		flex-basis:100%;
+	}
+
+	.footer-boxes {
+		flex-wrap: wrap;
+	}
+}
+@media(max-width:680px) {
+	.tab-button {
+		padding: 1px 15px;
+		margin-left: 7px;
+	} 
+}
+@media(max-width:550px) {
+	.footer-boxes{
+		display: block;
+		
+	}
+	.banner-text h1{
+		font-size: 37px;
+		margin-bottom: 50px;
+	}
+	.blue-btn{
+		margin-right: 0;
+	}
+	.buttons{
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		align-items: center;
+	}
+	.menu a{
+		margin-left: 12px;
+	}
+}
